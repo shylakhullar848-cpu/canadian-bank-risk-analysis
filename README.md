@@ -47,20 +47,20 @@ Python, pandas, NumPy, yfinance, matplotlib, seaborn, SQLite, SQL, Google Colab,
 
 ## Visualizations
 
-![Cumulative Returns](figures/cumulative_returns.png)
+![Cumulative Returns](cumulative_returns.png)
 
-![Risk and Return](figures/risk_return_scatter.png)
+![Risk and Return](risk_return_scatter.png)
 
-![Drawdown History](figures/drawdown_history.png)
+![Drawdown History](drawdown_history.png)
 
-![Return Correlations](figures/return_correlation_heatmap.png)
+![Return Correlations](return_correlation_heatmap.png)
 
-## Repository Structure
+## Repository Contents
 
 - `Canadian_Bank_Performance_and_Risk_Analysis.ipynb` — complete analysis
-- `data/` — cleaned prices, returns, and summary metrics
-- `database/` — SQLite analysis database
-- `figures/` — exported visualizations
+- CSV files — cleaned prices, returns, and summary metrics
+- `canadian_bank_analysis.db` — SQLite analysis database
+- PNG files — exported visualizations
 - `requirements.txt` — required Python packages
 
 ## Limitations
